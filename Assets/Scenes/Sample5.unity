@@ -377,13 +377,13 @@ VisualEffect:
   m_Enabled: 1
   m_Asset: {fileID: 8926484042661614526, guid: 7a675ef7382197d48be3866944fdd547, type: 3}
   m_InitialEventName: OnPlay
-  m_InitialEventNameOverriden: 0
+  m_InitialEventNameOverriden: 1
   m_StartSeed: 186078739
   m_ResetSeedOnPlay: 1
   m_PropertySheet:
     m_Float:
       m_Array:
-      - m_Value: 0.066049606
+      - m_Value: 0.2
         m_Name: radius
         m_Overridden: 1
     m_Vector2f:
@@ -742,8 +742,6 @@ PlayableDirector:
   m_DirectorUpdateMode: 2
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -441912494320258010, guid: d70f92eca1640044aaea1dd601ed5d64, type: 2}
-    value: {fileID: 1696499878}
   - key: {fileID: 8985348962292051198, guid: d70f92eca1640044aaea1dd601ed5d64, type: 2}
     value: {fileID: 155089539}
   - key: {fileID: -3900434648166124927, guid: d70f92eca1640044aaea1dd601ed5d64, type: 2}
